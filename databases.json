@@ -1,0 +1,22 @@
+[
+  {
+    "host": "",
+    "databasePyUrl": "postgres://user:password@10.100.10.100:5432/postgres",
+    "sgbd_name": "Postgres"
+  },
+  {
+    "host": "",
+    "databasePyUrl": "oracle+cx_oracle://user:password@10.100.10.100:1521/database",
+    "sgbd_name": "Oracle"
+  },
+  {
+    "host": "",
+    "databasePyUrl": "mssql+pyodbc://user:password@10.100.10.100:1433/master?driver=ODBC Driver 17 for SQL Server",
+    "sgbd_name": "SQLServer"
+  },
+  {
+    "host": "",
+    "databasePyUrl": "mysql://user:password@10.100.10.100:3306/information_schema",
+    "sgbd_name": "MySQL"
+  }
+]
